@@ -747,9 +747,10 @@
         .wishlist {
             width: 100%;
             background-color: white;
+            margin: 0;
         }
         .add-to-bag {
-            width: 80%;
+            width: 100%;
         }
         .nav1 {
             padding-left: 10px;
@@ -775,35 +776,45 @@
         .product-earring {
             display: none;
         }
+        .review-img-cont {
+            width: 100%;
+        }
+        .review-img {
+            width: 100%;
+        }
         .container2 {
             width: 100%;
-            margin-left: 30px;
+            /* margin-left: 30px; */
         }
         .container3 {
             width: 100%;
-            margin-left: 30px;
+            /* margin-left: 30px; */
         }
         .container4 {
             width: 100%;
-            margin-left: 30px;
+            /* margin-left: 30px; */
         }
         .container5 {
             width: 100%;
-            margin-left: 30px;
+            /* margin-left: 30px; */
         }
         .card-list {
             margin: 0;
         }
         .selected-image {
-            width: 375px;
+            margin-left: 0;
+            width: 100%;
             height: 375px;
         }
         .sel-image {
-            width: 375px;
-            height: 375px;
+            width: 100%;
+            height: 100%;
         }
         .container-footer {
-            margin-left: 30px;
+            /* margin-left: 30px; */
+        }
+        .review-content {
+            padding-left: 10px;
         }
         .main-product-details {
             flex-direction: column;
@@ -853,8 +864,6 @@
         }
         .social-mobile {
             width: 100%;
-            margin-left: 10px;
-            margin-right: 10px;
             margin-top: 10px;
             font-size: 20px;
             color: white;
