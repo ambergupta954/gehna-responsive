@@ -24,13 +24,13 @@ body {
 }
 
 .gehna-logo {
-    height: 30px;
+    /* height: 30px; */
     width: 111px;
 }
 
 .nav-txt {
     text-decoration: none;
-    height: 19px;
+    /* height: 19px; */
     margin-left: 10px;
     width: fit-content;
     color: #3E3F43;
@@ -41,7 +41,6 @@ body {
 
 .earring {
     text-decoration: none;
-    height: 19px;
     width: fit-content;
     color: #3E3F43;
     font-family: Lato;
@@ -51,14 +50,11 @@ body {
 
 .nav1 {
     width: 50%;
-    height: 30px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding-left: 140px;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding: 20px 0 20px 140px;
 }
 
 .nav-icons {
@@ -71,7 +67,7 @@ body {
     margin-right: 141px;
 }
 
-.container {
+.container-prod-earring {
     z-index: 0;
     height: fit-content;
     background-color: #FAFAFA;
@@ -85,9 +81,7 @@ body {
     align-items: center;
     width: 137px;
     height: 24px;
-    padding-bottom: 20px;
-    padding-top: 30px;
-    line-height: 24px;
+    padding: 30px 0 20px;
     margin-left: 140px;
     font-size: 16px;
     font-family: Lato;
@@ -104,29 +98,25 @@ body {
 
 hr {
     display: block;
-    margin-left: 140px;
-    margin-right: 141px;
+    margin: 0 141px 0 140px;
     margin-top: 0;
     border-width: 1px;
     border-style: inset;
     background-color: #3E3F43;
 }
 
-.section {
+.section-prod {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     z-index: 0;
-    margin-right: 144px;
-    margin-left: 140px;
-    /* border: 1px solid black; */
-    height: 1218px;
+    margin: 0 144px 0 140px;
 }
 
 .side-filter {
     margin-top: 30px;
     width: 20.87%;
-    height: 1079px;
+    /* height: 1079px; */
     /* border: 1px solid black; */
 }
 
@@ -149,17 +139,13 @@ hr {
 }
 
 .price {
-    height: 24px;
-    width: 38px;
     color: #3E3F43;
     font-family: Lato;
     font-size: 16px;
     font-weight: bold;
-    line-height: 24px;
 }
 
 .usd {
-    height: 24px;
     width: 41px;
 }
 
@@ -207,7 +193,6 @@ hr {
 }
 
 .rbox1 {
-    height: 23px;
     width: 70px;
     border: 1px solid #979797;
     opacity: 0.5;
@@ -216,7 +201,6 @@ hr {
 
 .rbox2 {
     box-sizing: border-box;
-    height: 23px;
     width: 70px;
     border: 1px solid #979797;
     opacity: 0.5;
@@ -239,11 +223,9 @@ hr {
     font-family: Lato;
     font-size: 16px;
     font-weight: bold;
-    line-height: 24px;
 }
 
 .minus {
-    width: 30px;
     font-size: 20px;
 }
 
@@ -323,22 +305,10 @@ hr {
     transform: rotate(45deg);
 }
 
-.gem-color {
-    margin-top: 30px;
-}
-
-.backing {
-    margin-top: 30px;
-}
-
-.diamond-shape {
-    margin-top: 30px;
-}
-
-.collection {
-    margin-top: 30px;
-}
-
+.gem-color,
+.backing,
+.diamond-shape,
+.collection,
 .setting {
     margin-top: 30px;
 }
@@ -358,7 +328,6 @@ hr {
     justify-content: space-between;
     margin-left: 1px;
     margin-top: 30px;
-    height: 24px;
     /* border: 1px solid black; */
     height: 30px;
 }
@@ -366,7 +335,6 @@ hr {
 .count-sort-categ {
     width: 100%;
     margin-left: 60px;
-    height: 1218px;
     display: flex;
     flex-direction: column;
     justify-content: start;
@@ -379,20 +347,17 @@ hr {
     font-family: Lato;
     font-size: 18px;
     font-weight: bold;
-    line-height: 24px;
 }
 
 .sort {
     width: 70px;
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
     align-items: center;
     color: rgba(62, 63, 67, 0.8);
     font-family: Lato;
     font-size: 18px;
     font-weight: bold;
-    line-height: 24px;
     border: 1px solid rgba(62, 63, 67, 0.8);
     padding: 10px;
     ;
@@ -413,7 +378,6 @@ hr {
 .earring-card {
     grid-area: ear;
     display: flex;
-    flex-direction: row;
     justify-content: flex-start;
     /* background-color: #3E3F43; */
 }
@@ -429,7 +393,6 @@ hr {
 }
 
 .ect {
-    height: 38px;
     width: 217px;
     color: #3E3F43;
     font-family: "Nanum Myeongjo";
@@ -439,7 +402,6 @@ hr {
 }
 
 .ectp {
-    height: 120px;
     width: 217px;
     opacity: 0.8;
     color: rgba(62, 63, 67, 0.8);
@@ -451,8 +413,7 @@ hr {
 .ecthr {
     display: block;
     width: 40px;
-    margin-top: 5px;
-    margin-left: 0;
+    margin: 5px 0 0 0;
     border-width: 2px;
     border-style: inset;
     background-color: #3E3F43;
@@ -483,7 +444,6 @@ hr {
     color: rgba(62, 63, 67, 0.8);
     font-family: Lato;
     font-size: 16px;
-    line-height: 24px;
 }
 
 .after-dis {
@@ -491,25 +451,21 @@ hr {
     font-family: Lato;
     font-size: 16px;
     font-weight: bold;
-    line-height: 24px;
 }
 
 .before-dis {
-    margin-left: 10px;
+    padding-left: 10px;
     opacity: 0.5;
     color: #3E3F43;
     font-family: Lato;
     font-size: 14px;
-    line-height: 24px;
 }
 
 .save {
-    margin-left: 20px;
-    margin-bottom: 10px;
+    margin: 0 0 10px 20px;
     color: #DE6463;
     font-family: Lato;
     font-size: 14px;
-    line-height: 24px;
 }
 
 .card1 {
@@ -548,8 +504,7 @@ hr {
     display: flex;
     justify-content: space-between;
     flex-direction: column;
-    margin-top: 2.11%;
-    background-color: white
+    background-color: white;
 }
 
 .card5 {
@@ -559,8 +514,7 @@ hr {
     display: flex;
     justify-content: space-between;
     flex-direction: column;
-    margin-top: 2.11%;
-    background-color: white
+    background-color: white;
 }
 
 .card6 {
@@ -570,8 +524,7 @@ hr {
     display: flex;
     justify-content: space-between;
     flex-direction: column;
-    margin-top: 2.11%;
-    background-color: white
+    background-color: white;
 }
 
 .emerald-jewellery {
@@ -593,7 +546,6 @@ hr {
     font-family: Lato;
     font-size: 14px;
     font-weight: bold;
-    line-height: 22px;
 }
 
 .para {
@@ -601,7 +553,6 @@ hr {
     color: #9E9FA1;
     font-family: Lato;
     font-size: 14px;
-    line-height: 22px;
 }
 
 .para a {
@@ -618,14 +569,12 @@ hr {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    margin-left: 140px;
-    margin-right: 140px;
+    margin: 0 140px 0 140px;
 }
 
 .footer {
     margin-top: 70px;
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
 }
 
@@ -634,7 +583,6 @@ hr {
     font-family: Lato;
     font-size: 20px;
     font-weight: bold;
-    line-height: 24px;
 }
 
 .head-list {
@@ -643,7 +591,6 @@ hr {
     color: #77787B;
     font-family: Lato;
     font-size: 20px;
-    line-height: 24px;
 }
 
 .group {
@@ -674,7 +621,6 @@ hr {
     font-size: 20px;
     color: white;
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
 }
 
@@ -685,7 +631,6 @@ hr {
     font-family: "Nanum Myeongjo";
     font-size: 18px;
     font-weight: 800;
-    line-height: 21px;
 }
 
 .visit {
@@ -702,12 +647,10 @@ hr {
     right: 0;
     align-items: center;
     height: 40px;
-    flex-direction: row;
     justify-content: space-evenly;
     color: rgba(62, 63, 67, 0.8);
     font-family: Lato;
     font-size: 16px;
-    line-height: 24px;
     text-align: center;
 }
 
@@ -716,19 +659,22 @@ hr {
 }
 
 @media only screen and (min-width:600px) {
-    .bottom {
-        display: none;
-    }
+    .bottom,
     .menu {
         display: none;
     }
 }
 
 @media only screen and (max-width: 600px) {
-    .nav-txt {
-        display: none;
-    }
-    .user {
+    .nav-txt,
+    .user,
+    .ja,
+    .side-filter,
+    .sort,
+    .emerald-jewellery,
+    .container-footer,
+    .product-earring,
+    .hru {
         display: none;
     }
     .nav1 {
@@ -742,24 +688,6 @@ hr {
         width: 15%;
         margin: 0 10px 0 0;
     }
-    .ja {
-        display: none;
-    }
-    .fa-user fa {
-        display: none;
-    }
-    .side-filter {
-        display: none;
-    }
-    .sort {
-        display: none;
-    }
-    .emerald-jewellery {
-        display: none;
-    }
-    .container-footer {
-        display: none;
-    }
     .grid {
         display: grid;
         grid-template-columns: 50% 50%;
@@ -767,7 +695,7 @@ hr {
         grid-template-areas: "ear ear" "c1  c2" "c3 c4" "c5 c6";
         margin: 0;
     }
-    .container {
+    .container-prod-earring {
         width: 100%;
         margin-right: 0;
         margin-left: 0;
@@ -779,16 +707,9 @@ hr {
     .count-sort {
         padding: 0;
     }
-    .section {
+    .section-prod {
         margin-left: 0;
         margin-right: 0;
-    }
-    .count-sort-categ {}
-    .product-earring {
-        display: none;
-    }
-    .hru {
-        display: none;
     }
     .earring-card-pic {
         width: 100%;
@@ -808,12 +729,8 @@ hr {
     .ect {
         font-size: 14px;
     }
-    .card1 {
-        margin-left: 10px;
-    }
-    .card3 {
-        margin-left: 10px;
-    }
+    .card1,
+    .card3,
     .card5 {
         margin-left: 10px;
     }
